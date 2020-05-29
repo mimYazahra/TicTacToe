@@ -1,0 +1,78 @@
+.App {
+  text-align: center;
+}
+
+.App-logo {
+  height: 30vmin;
+  pointer-events: none;
+  align-self: start;
+  align-self: top;
+}
+
+@media (prefers-reduced-motion: no-preference) {
+  .App-logo {
+    animation: App-logo-spin infinite 20s linear;
+  }
+}
+
+.App-header {
+  background-color: #282c34;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  font-size: calc(10px + 2vmin);
+  color: white;
+}
+
+.App-link {
+  color: #61dafb;
+}
+
+@keyframes App-logo-spin {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
+}
+
+.box {
+  width: 80px;
+  height: 80px;
+  border: 1px solid white;
+  display: inline-block;
+  border-radius: 5px;
+  line-height: 80px;
+  text-align: center;
+}
+
+.board {
+  
+  top: 50%;
+  left: 50%;
+
+  display: inline-flex;
+  flex-wrap: wrap;
+  max-height: 320px;
+  max-width: 320px;
+  text-align: center;
+}
+
+.choosePlayer{
+  text-align: center;
+  width: 400px;
+  margin-bottom: 40px;
+}
+
+.obj{
+  padding-right: 20px;
+}
+
+.btn-cancel{
+  margin-top: 40px;
+  width: 200px;
+  height: 50px;
+}
